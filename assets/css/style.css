@@ -1,0 +1,111 @@
+@font-face {
+	font-family: BTTF;
+	src: url("../fonts/bttf.ttf");
+}
+
+body {
+	background-color: black;
+	
+}
+
+.jumbotron {
+	margin-top: 1%;
+	height: 300px;
+	background-color: black;
+	background-image: url("../images/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	background-position: center;
+}
+
+p {
+	text-align: center;
+	margin-top: 1%;
+}
+
+/*ol { 
+	margin: 0 12% 0 12%;
+	float: none;
+	font-family: Times;
+}*/
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 5%;
+	padding: 5px;
+	font-family: bttf;
+	color: black;
+
+}
+
+/*h2 {
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	padding: 10px;
+	float: none;
+	font-family: bttf;
+	text-shadow: 0 0 5px red;
+}
+
+h3 {
+	text-align: center;
+	margin: auto;
+	margin-top: 2%;
+	padding: 10px;
+	float: none;
+	font-family: bttf;
+	text-shadow: 0 0 5px orange;
+
+}*/
+
+.panel-title {
+	font-family: bttf;
+	text-align: center;
+}
+
+.panel-body {
+	height: 90%;
+	background-color: black;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+#currentQuestion {
+	font-family: Times;
+	width: 75%;
+	height: auto;
+	margin: auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#message {
+	font-family: Times;
+	background-color: lightgrey;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: black;
+}
+
+#nextButton {
+	font-family: Times;
+	width: 150px;
+	height: 30px;
+	font-family: bttf;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+	box-shadow: 3px 3px 5px #888;
+}
+
+#nextButton:hover {
+	background-color: lightgrey;
+}
+
